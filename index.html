@@ -46,7 +46,16 @@ body {
 <div id="sidebardnav" class=sidenav>
   <a href="music.html">Music</a>
 </div>
-<span onclick="openNav()">open</span>
+<span onclick="openNav()">Open Sidebar</span>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 
 
 </body>
